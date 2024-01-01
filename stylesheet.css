@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+#text_field {
+    text-align: right;
+    padding: 8px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    width: 365px;
+     height: 2em; 
+    border: 1px solid black ;
+    margin-bottom: 6px ; 
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+button {
+    width: 6em;
+    height: 3em;
+    margin: 8px 6px 8px 0px;
+    border-radius: 8px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.buttons_container {
+    min-width: 350px;
+}
+
+.operator {
+    background-color: lightgray;
+}
+
+.nums, .special {
+    background-color: #f1f3f4;
+}
+
+#equals {
+    background-color: #4285f4;
+    color: white;
+}
