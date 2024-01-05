@@ -27,11 +27,6 @@ list.addEventListener ('click', function (e) {
     if (e.target.className == "del") {
         e.target.parentElement.remove()
     }
-    else if (e.target.tagName == "li") {
-        let li =e.target;
-
-        li.childNodes[0].classList.toggle('unchecked');
-    }
     else {
         e.target.classList.toggle('unchecked');
     }
